@@ -1,0 +1,217 @@
+object Main: TMain
+  Left = 407
+  Height = 369
+  Top = 172
+  Width = 320
+  Caption = 'КалькУлятор'
+  ClientHeight = 369
+  ClientWidth = 320
+  DesignTimePPI = 144
+  LCLVersion = '3.2.0.0'
+  object Buttonback: TButton
+    Left = 8
+    Height = 53
+    Top = 48
+    Width = 115
+    Caption = '<-'
+    TabOrder = 0
+    OnClick = ButtonbackClick
+  end
+  object Editfield: TEdit
+    Left = 8
+    Height = 33
+    Top = 8
+    Width = 304
+    TabOrder = 1
+    Text = '0'
+  end
+  object ButtonCEclick: TButton
+    Left = 200
+    Height = 53
+    Top = 48
+    Width = 51
+    Caption = 'ce'
+    TabOrder = 2
+    OnClick = ButtonCEclickClick
+  end
+  object ButtonKopclick: TButton
+    Left = 261
+    Height = 53
+    Top = 48
+    Width = 51
+    Caption = 'Kop'
+    TabOrder = 3
+    OnClick = ButtonKopclickClick
+  end
+  object ButtonCclick: TButton
+    Left = 136
+    Height = 53
+    Top = 48
+    Width = 51
+    Caption = 'c'
+    TabOrder = 4
+    OnClick = ButtonCclickClick
+  end
+  object Button7: TButton
+    Left = 8
+    Height = 53
+    Top = 112
+    Width = 51
+    Caption = '7'
+    TabOrder = 5
+    OnClick = ClickButton
+  end
+  object Button8: TButton
+    Left = 72
+    Height = 53
+    Top = 112
+    Width = 51
+    Caption = '8'
+    TabOrder = 6
+    OnClick = ClickButton
+  end
+  object Button9: TButton
+    Left = 136
+    Height = 53
+    Top = 112
+    Width = 51
+    Caption = '9'
+    TabOrder = 7
+    OnClick = ClickButton
+  end
+  object Buttonsquare: TButton
+    Left = 261
+    Height = 53
+    Top = 112
+    Width = 51
+    Caption = 'x^2'
+    TabOrder = 8
+    OnClick = ButtonsquareClick
+  end
+  object ButtonDividion: TButton
+    Left = 200
+    Height = 53
+    Top = 112
+    Width = 51
+    Caption = '/'
+    TabOrder = 9
+    OnClick = ClickZnak
+  end
+  object Button4: TButton
+    Left = 8
+    Height = 53
+    Top = 176
+    Width = 51
+    Caption = '4'
+    TabOrder = 10
+    OnClick = ClickButton
+  end
+  object Button5: TButton
+    Left = 72
+    Height = 53
+    Top = 176
+    Width = 51
+    Caption = '5'
+    TabOrder = 11
+    OnClick = ClickButton
+  end
+  object Button6: TButton
+    Left = 136
+    Height = 53
+    Top = 176
+    Width = 51
+    Caption = '6'
+    TabOrder = 12
+    OnClick = ClickButton
+  end
+  object ButtonMultiplication: TButton
+    Left = 200
+    Height = 53
+    Top = 176
+    Width = 51
+    Caption = '*'
+    TabOrder = 13
+    OnClick = ClickZnak
+  end
+  object ButtonDelX: TButton
+    Left = 261
+    Height = 53
+    Top = 176
+    Width = 51
+    Caption = '1/x'
+    TabOrder = 14
+    OnClick = ButtonDelXClick
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 53
+    Top = 240
+    Width = 51
+    Caption = '1'
+    TabOrder = 15
+    OnClick = ClickButton
+  end
+  object Button2: TButton
+    Left = 72
+    Height = 53
+    Top = 240
+    Width = 51
+    Caption = '2'
+    TabOrder = 16
+    OnClick = ClickButton
+  end
+  object Button3: TButton
+    Left = 136
+    Height = 53
+    Top = 240
+    Width = 51
+    Caption = '3'
+    TabOrder = 17
+    OnClick = ClickButton
+  end
+  object ButtonMinus: TButton
+    Left = 200
+    Height = 53
+    Top = 240
+    Width = 51
+    Caption = '-'
+    TabOrder = 18
+    OnClick = ClickZnak
+  end
+  object Button0: TButton
+    Left = 8
+    Height = 53
+    Top = 304
+    Width = 115
+    Caption = '0'
+    TabOrder = 19
+    OnClick = ClickButton
+  end
+  object ButtonComma: TButton
+    Left = 136
+    Height = 53
+    Top = 304
+    Width = 51
+    Caption = ','
+    TabOrder = 20
+    OnClick = ClickButton
+  end
+  object Buttonplus: TButton
+    Left = 200
+    Height = 53
+    Top = 304
+    Width = 51
+    Caption = '+'
+    TabOrder = 21
+    OnClick = ClickZnak
+  end
+  object ButtonRavno: TButton
+    Left = 261
+    Height = 117
+    Top = 240
+    Width = 51
+    Caption = '='
+    TabOrder = 22
+    OnClick = ButtonRavnoClick
+  end
+end
